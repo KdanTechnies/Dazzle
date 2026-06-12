@@ -40,6 +40,6 @@ This repository contains the proposal version of the project. The production ver
 
 ## Author
 
-**Daniel Kalu**
+**Kalu Onuka Daniel**
 
 Software Engineer focused on building modern, scalable, and user-friendly web applications.
