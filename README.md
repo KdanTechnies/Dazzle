@@ -1,74 +1,45 @@
-# React + TypeScript + Vite
+# Dazzle Dental Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive dental clinic landing page created as a professional proposal project. The goal was to showcase how a well-designed website can help a dental practice build trust, highlight its services, and create a seamless experience for potential patients.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Dazzle Dental Landing Page was designed with a strong focus on user experience, accessibility, and visual appeal. The project demonstrates how healthcare providers can establish a professional online presence while making it easier for patients to learn about available services.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Fully responsive design
+* Modern and clean user interface
+* Service showcase sections
+* Patient-focused user experience
+* Call-to-action areas for appointments and inquiries
+* Optimized layout for desktop, tablet, and mobile devices
+* Fast and accessible browsing experience
 
-## Expanding the ESLint configuration
+## Purpose
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This project was developed as a proposal to demonstrate a potential web solution for a dental practice. It focuses on presenting services clearly, building credibility, and creating a welcoming online experience for visitors.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* React
+* TypeScript
+* HTML5
+* CSS3
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Project Highlights
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* Designed with real-world business requirements in mind
+* Focused on usability and conversion-oriented design
+* Demonstrates modern frontend development practices
+* Created to showcase a professional healthcare website experience
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Live Demo
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# Dazzle
+This repository contains the proposal version of the project. The production version is not publicly available.
+
+## Author
+
+**Daniel Kalu**
+
+Software Engineer focused on building modern, scalable, and user-friendly web applications.
